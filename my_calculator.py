@@ -5,7 +5,7 @@ import tkinter.font as font
 root = Tk()
 root.title("Simple Calculator")
 root.geometry("300x600")
-#root.iconbitmap("calculator_logo.ico")
+root.iconbitmap("calculator_logo.ico")
 
 #configure rows and columns for dynamic resizing of buttons in window
 Grid.columnconfigure(root, 0, weight = 1, minsize=30)
