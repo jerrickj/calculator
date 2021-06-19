@@ -226,7 +226,7 @@ button_back_space =  Button(root, text = "⌫",   borderwidth= bdw, border = bd,
 button_square =      Button(root, text = "x²",   borderwidth= bdw, border = bd, font = myFont_small, activebackground = "DeepSkyBlue2", bg = "gray15",      fg = "White", command = squared)
 button_percent =     Button(root, text = "%",    borderwidth= bdw, border = bd, font = myFont_small, activebackground = "DeepSkyBlue2", bg = "gray15",      fg = "White", command = percentage)
 button_square_root = Button(root, text = "√",    borderwidth= bdw, border = bd, font = myFont_small, activebackground = "DeepSkyBlue2", bg = "gray15",      fg = "White", command = sq_root)
-button_inverse =     Button(root, text = "¹⁄x",  borderwidth= bdw, border = bd, font = myFont_small, activebackground = "DeepSkyBlue2", bg = "gray15",      fg = "White", command = inversed)
+button_inverse =     Button(root, text = "¹⁄ₓ",  borderwidth= bdw, border = bd, font = myFont_small, activebackground = "DeepSkyBlue2", bg = "gray15",      fg = "White", command = inversed)
 
 #Put number buttons on grid on screen
 button_1.grid(row = 5, column = 0, sticky = NSEW, padx = pad_x, pady = pad_y)
