@@ -169,7 +169,7 @@ def percentage():
 def sq_root():
     current = output.get()
     output.delete(0, END)
-    output.insert(0, str(math.sqrt(current)))
+    output.insert(0, str(math.sqrt(float(current))))
 
 def inversed():
     current = output.get()
