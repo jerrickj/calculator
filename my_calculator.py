@@ -7,7 +7,7 @@ root = Tk()
 root.title("Jerrick's Calculator")
 root.geometry("350x550")
 root.configure(bg = "gray26",)
-root.iconbitmap("calculator_logo.ico")
+#root.iconbitmap("calculator_logo.ico")
 
 #configure rows and columns for dynamic resizing of buttons in window
 Grid.columnconfigure(root, 0, weight = 1)
